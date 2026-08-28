@@ -225,3 +225,13 @@ output/
 
 # Lock Files (For build priorities)
 .lock-*
+
+# MKLHC bsd:u capture sysmodule
+lsp_bsd_mitm/Atmosphere-libs/
+lsp_bsd_mitm/out/
+lsp_bsd_mitm/lsp_bsd_mitm/out/
+lsp_bsd_mitm/lsp_bsd_mitm/build/
+lsp_bsd_mitm/lsp_bsd_mitm/*.nsp
+lsp_bsd_mitm/lsp_bsd_mitm/*.npdm
+lsp_bsd_mitm/lsp_bsd_mitm/*.nso
+lsp_bsd_mitm/lsp_bsd_mitm/*.elf

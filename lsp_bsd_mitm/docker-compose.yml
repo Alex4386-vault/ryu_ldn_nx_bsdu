@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  devkit:
+    image: devkitpro/devkita64:latest
+    volumes:
+      - ".:/code"
+    command: bash -c "dkp-pacman -Syu --noconfirm && dkp-pacman -S --needed switch-dev libnx --noconfirm && cd /code && make dist"
